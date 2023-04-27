@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+.main-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25%;
+    margin: 1rem auto;
+}
+
+button {
+    outline: none;
+    border: none;
+    background-color: #a5a5af;
+    padding: 0.4rem 2rem;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.pages {
+    color: #dcc7aa;
+    font-family: 'Russo One', sans-serif;
+    font-weight: lighter;
+}
+
+@media (max-width:400px) {
+    .main-div {
+        width: 80%;
+    }
+}
